@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/filament-infolists",
+    "description": "Tyhp type definitions for filament/infolists 5.8.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.8.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/filament-infolists-impl": "~5.8.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/filament-infolists-impl"
+        }
+    }
+}
